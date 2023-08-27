@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    background-color: #212121;
+    margin-top: 10%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Handlee';
+}
+
+h2::after{
+    font-family: "FontAwesome";
+    content: "  \f004";
+}
+
+section{
+    margin: auto;
+    border: 1px solid rgba(188,188,188,0.544);
+    border-radius: 20px;
+    background-color: #ffffffcc;
+    padding: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+img{
+    max-width: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 10px;
+    opacity: 1;
+    transition: all 1s;
+    border: 1px solid rgba(222,222,222,0.118);
+    box-shadow: 0 4px 8px 0 rgba(8,7,7,0.343);
+}
+
+.picture{
+    position: relative;
+    transition: all 1s;
+}
+
+.picture:hover img {
+    opacity: .3;
+    transform: scale(.9,.9);
+}
+
+.picture:hover i::after{
+    font-family: "Handlee";
+    color: white;
+    content: attr(title);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    animation-name: text;
+    animation-duration: 1s;
+}
+
+.picture:hover i::before{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: rgb(233, 75, 75);
+    font-size: 100px;
+    content: "\f004";
+    opacity: .7;
+    animation-name: heart;
+    animation-duration: .8s;
+}
+
+@keyframes heart {
+    from { top: 40%}
+    to {top: 25%}
+}
+
+@keyframes text {
+    from { right:  60%}
+    to {right: 50%}
+}
