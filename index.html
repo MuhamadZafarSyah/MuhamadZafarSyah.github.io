@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Sweetheart Gallery</title>
@@ -75,5 +76,20 @@
         <img src="img/10.png" alt="Gambar 1">
         <i class="fa" title="Reputation""></i>
     </div>
+    
+    <div class="musik" data-aos="flip-up" data-aos-delay="1100"  data-aos-duration="900">
+        <h5>Taylor Swift - This Love(Taylor's Version)</h5>
+        <audio controls>
+          <source src="songs/song.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+  AOS.init({
+  //  once: true, <<< Untuk sekali animasi
+});
+</script>
 </body>
 </html>
