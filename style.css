@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-*{
-    scrool-behavior: smooth;
+
+* {
+    scroll-behavior: smooth;
 }
+
 body {
     background-color: #212121;
     margin-top: 10%;
