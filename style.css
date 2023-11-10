@@ -4,7 +4,7 @@
   --text-color: #fff;
   --pink: rgba(0, 21, 255, 0.811);
   --violet: rgb(0, 140, 255);
-  --lightblack: #515c6f;
+  --lightblack: #ffffff;
   --white: #ffffff;
   --darkwhite: #cecaca;
   --pinkshadow: #ffcbdd;
@@ -555,7 +555,7 @@ form textarea {
 
 .music-list {
   position: absolute;
-  background: var(--white);
+  background: #131414;
   width: 100%;
   left: 0;
   bottom: -55%;
@@ -564,7 +564,7 @@ form textarea {
   z-index: 5;
   padding: 15px 30px;
   border-radius: 15px;
-  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(221, 221, 221, 0.15) 10px 18px 50px 0px;
   transition: all 0.15s ease-out;
 }
 .music-list.show {
@@ -660,18 +660,28 @@ ul li.playing {
 }
 @media only screen and (max-width: 415px) {
   .console_container {
-    display: none;
-    margin: auto;
-    width: 100%;
     text-align: center;
-  }
-  #text p {
-    display: inline;
+    color: #f9fcfe;
+    width: 900px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 40px;
+    top: 70px;
+    margin-left: 50px;
   }
   .sidebar {
     display: none;
   }
+  .about {
+    margin-top: 160px;
+  }
   .project {
     margin-right: 50px;
+  }
+  .container-fav-music {
+    width: 900px;
+  }
+  .contact {
+    margin-left: 0;
   }
 }
