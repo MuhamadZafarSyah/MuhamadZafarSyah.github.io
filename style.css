@@ -389,10 +389,7 @@ form textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  /* background: url(../images/bg-white.jpg);
-  background-position: center;
-  background-size: cover; */
+  margin-top: 40px;
 }
 .wrapper {
   width: 380px;
