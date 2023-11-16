@@ -659,23 +659,29 @@ ul li.playing {
   .console_container {
     text-align: center;
     color: #f9fcfe;
-    width: 900px;
+    width: 895px;
     font-weight: 900;
     letter-spacing: 2px;
     font-size: 40px;
     top: 70px;
-    margin-left: 50px;
+    left: 43px;
   }
   .sidebar {
     display: none;
   }
+  .container_project {
+    margin-left: 35px;
+  }
+  .deskripsi_diri {
+    padding-right: 23px;
+  }
+  .skills {
+    margin-left: 35px;
+  }
   .about {
     margin-top: 160px;
   }
-  .project {
-    margin-right: 50px;
-  }
   .contact {
-    margin-left: 0;
+    margin: 0;
   }
 }
