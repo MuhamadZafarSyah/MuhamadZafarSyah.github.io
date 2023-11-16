@@ -673,13 +673,15 @@ ul li.playing {
     margin-left: 35px;
   }
   .deskripsi_diri {
-    padding-right: 23px;
+    padding-right: 40px;
   }
   .skills {
     margin-left: 35px;
   }
   .about {
     margin-top: 160px;
+    margin-left: -25px;
+;
   }
   .contact {
     margin: 0;
